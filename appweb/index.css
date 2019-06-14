@@ -1,0 +1,37 @@
+body{
+    background: url(../imagenes/pantalladefault.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#header{
+    color: white;
+    text-align: center;
+}
+
+#content{
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    text-align: center;
+    color: white;
+
+    /*position: absolute;
+    bottom: 10%;
+    left: 25%;
+    right: 25%;*/
+}
+
+.row{
+    text-align: center;
+}
+
+label{
+    color: white;
+}
